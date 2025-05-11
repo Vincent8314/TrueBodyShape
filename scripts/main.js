@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Reset button
                 if (submitButton) {
-                    submitButton.innerHTML = 'SEND MESSAGE';git 
+                    submitButton.innerHTML = 'SEND MESSAGE';
                     submitButton.disabled = false;
                 }
             });
