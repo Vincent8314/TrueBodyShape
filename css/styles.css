@@ -185,9 +185,9 @@ nav ul li a:hover {
 }
 
 .overlay {
-    margin: 0 0 0 0;
-    padding: 40px 40px 40px 40px;
-    margin: 35px 20px;
+    margin: 3.2rem;
+    padding: 2.5rem;
+    max-width: 1150px;
     border-radius: 15px;
     top: 0;
     left: 0;
@@ -318,7 +318,7 @@ nav ul li a:hover {
 
 .pricing-cards {
     display: flex;
-    padding-top: 80px;
+    padding: 4rem 0;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
