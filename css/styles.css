@@ -6,6 +6,11 @@
     font-size: 1em;
 }
 
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
