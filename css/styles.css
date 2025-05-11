@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1em;
 }
 
 html {
@@ -175,7 +176,7 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0;
     height: auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('images/bosu-image.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../images/bosu-image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -785,7 +786,7 @@ footer {
 }
 
 .maps-float::before {
-    content: "Rejoignez-moi à cette adresse";
+    content: "Find me here";
     position: absolute;
     left: 70px;
     background-color: #4285F4;
