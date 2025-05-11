@@ -6,14 +6,6 @@
     font-size: 1em;
 }
 
-html, body {
-    max-width: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 html {
     scroll-behavior: smooth;
 }
