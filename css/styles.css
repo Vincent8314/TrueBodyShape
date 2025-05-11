@@ -136,6 +136,7 @@ nav ul li a:hover {
     padding: 12px 18px;
     border-radius: 30px;
     font-weight: 600;
+    letter-spacing: 0.02rem;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
