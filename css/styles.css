@@ -71,8 +71,22 @@ header {
 }
 
 .border-bottom{
-    border-bottom: 2px solid #003349;
+    border-bottom: 3px solid var(--primary-orange);
 }
+
+.hunderline-divider {
+    max-width: 87%;
+    padding: 10px;
+    border-bottom: 0.02rem solid #aaa;
+    margin: auto;
+}
+
+.divider-display {
+    display: none;
+} 
+
+/*@media (max-width:1066px) {}*/
+
 
 .header-container {
     display: flex;
@@ -272,7 +286,7 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0;
     height: auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/bosu-image.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../images/bosu-image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -286,11 +300,12 @@ nav ul li a:hover {
     border-radius: 15px;
     top: 0;
     left: 0;
-     background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: hsla(0, 50%, 100%, 0.85);
-    box-shadow: 0 0 1px 0 #ffffff;
+    border:1px solid hsla(0, 50%, 100%, 0.5);
+    box-shadow: 0 0 2px 0 #ffffff;
 }
 
 .about h2 {
@@ -968,7 +983,7 @@ footer {
     .hero h1 {
         font-size: 36px;
     }
-    
+
     .about-text {
         padding: 0;
         margin-bottom: 30px;
@@ -995,7 +1010,7 @@ footer {
     .overlay {
     margin: 0 0 0 0;
     padding: 40px 15px;
-    margin: 20px 20px;
+    margin: 30px 20px;
     border-radius: 15px;
     top: 0;
     left: 0;
