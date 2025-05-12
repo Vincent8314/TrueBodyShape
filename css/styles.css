@@ -272,7 +272,7 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0;
     height: auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../images/bosu-image.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/bosu-image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -289,7 +289,8 @@ nav ul li a:hover {
      background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: hsla(0, 0%, 100%, 0.15);
+    background-color: hsla(0, 50%, 100%, 0.95);
+    box-shadow: 0 0 1px 0 #ffffff;
 }
 
 .about h2 {
@@ -1001,7 +1002,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: hsla(0, 0%, 100%, 0.15);
+    background-color: hsla(0, 50%, 100%, 0.95);
     }
 }
 
