@@ -118,3 +118,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+// Ajouter ceci à la partie de gestion du menu hamburger mobile
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerButton = document.getElementById('hamburger-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+    
+    if (hamburgerButton && mobileMenu) {
+        // Ouvrir/fermer le menu quand on clique sur le hamburger
+        hamburgerButton.addEventListener('click', function() {
+            hamburgerButton.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+        
+        // Fermer le menu quand on clique sur un lien
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                // Petit délai avant fermeture
+                setTimeout(() => {
+                    hamburgerButton.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                }, 500); // Délai de 500ms (0.5 secondes)
+            });
+        });
+        
+        // NOUVEAU : Fermer le menu quand la fenêtre change de taille
+        window.addEventListener('resize', function() {
+            // Si la largeur de la fenêtre dépasse le seuil du media query (768px)
+            if (window.innerWidth > 768) {
+                // Fermer le menu mobile
+                hamburgerButton.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            }
+        });
+    }
+});

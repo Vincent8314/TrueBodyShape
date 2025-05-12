@@ -11,17 +11,32 @@
 </head>
 <body>
     <!-- Header -->
+    <!-- Modifications à apporter au header dans index.html -->
+<!-- Remplacer l'actuel header par ceci: -->
+
     <header id="top">
         <div class="container header-container">
             <a href="#hero" class="logo">TrueBodyShape<span class="logo-true"><img src="images/ChatGPT Image May 9, 2025, 04_15_25 PM.png"></span></a>
             <nav>
-                <ul>
+                <ul id="nav-menu">
                     <li><a href="#about" class="active">About</a></li>
                     <li><a href="#tarifs">TARIF</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <a href="#contact" class="cta-button cta-button-blue">YOUR&nbsp;EVALUATION</a>
+            <a href="#contact" class="cta-button cta-button-blue mobile-hide">YOUR&nbsp;EVALUATION</a>
+            <div class="hamburger-menu" id="hamburger-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tarifs">TARIF</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
         </div>
     </header>
 
