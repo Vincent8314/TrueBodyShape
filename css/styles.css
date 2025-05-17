@@ -565,6 +565,7 @@ nav ul li a:hover {
 @media (max-width: 768px) { .container-contact {
         padding: 2.5%;
         margin: 30px 20px;
+        overflow-x: hidden;
     }
 }
 
