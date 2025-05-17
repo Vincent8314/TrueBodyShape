@@ -898,7 +898,7 @@ footer {
 }
 
 .maps-float::before {
-    content: "Street Archimede 73";
+    content: "Find me here";
     position: absolute;
     left: 70px;
     background-color: #4285F4;
