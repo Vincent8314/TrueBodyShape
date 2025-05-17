@@ -553,7 +553,7 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) { .container-contact {
-        padding: 25px;
+        padding: 30px;
         margin: 30px 15px;
     }
 }
