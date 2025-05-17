@@ -251,6 +251,13 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.cta-button-forms {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    margin:  0 auto;
+}
+
 .cta-button-blue {
     background-color: var(--primary-blue);
 }
@@ -569,7 +576,7 @@ nav ul li a:hover {
 .hunderline-question {
     display: inline;
     border-bottom:2px solid var(--primary-orange);
-    padding-bottom: 1px;
+    padding:0 0 1px 0;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -577,6 +584,7 @@ nav ul li a:hover {
 .margin-bottom {
     display: inline-block;
     margin-bottom: 20px;
+    padding-left: 0.22rem;
 }
 
 .contact-content {
@@ -696,8 +704,8 @@ textarea.form-control:focus {
 
 .goal-option label {
     font-weight: 500;
-    font-size: 16px;
-    padding: 9px 15px;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
     color: #344154;
     background-color: #f5f5f7;
     border: 1px solid var(--primary-blue);
@@ -733,8 +741,8 @@ textarea.form-control:focus {
 
 .time-option label {
     font-weight: 500;
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
     color: #344154;
     background-color: #f5f5f7;
     border: 1px solid var(--primary-blue);
@@ -768,8 +776,8 @@ textarea.form-control:focus {
 
 .day-option label {
     font-weight: 500;
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
     color: #344154;
     background-color: #f5f5f7;
     border: 1px solid var(--primary-blue);
@@ -802,8 +810,8 @@ textarea.form-control:focus {
 
 .contact-option label {
     font-weight: 500;
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
     color: #344154;
     background-color: #f5f5f7;
     box-shadow: 0 0 2px 0px rgba(0, 51, 73, 0.3);
