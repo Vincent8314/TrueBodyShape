@@ -551,7 +551,11 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-color: hsla(0, 0%, 100%, 1);
 }
-
+@media (max-width: 768px) { .container-contact {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 .contact h2 {
     font-size: 36px;
     text-align: center;
