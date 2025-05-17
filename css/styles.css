@@ -538,7 +538,7 @@ nav ul li a:hover {
 }
 
 .container-contact {
-    padding: 25px;
+    padding: 30px;
     margin: 60px 0;
     max-width: 1000px;
     border-radius: 12px;
@@ -742,7 +742,7 @@ textarea.form-control:focus {
 }
 
 .time-option input:checked + label {
-    background-color: var(--primary-orange);
+    background-color: var(--primary-blue);
     color: white;
 }
 
