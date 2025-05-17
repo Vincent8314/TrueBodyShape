@@ -203,7 +203,7 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                         <input type="text" name="_honey" style="display:none">
                         
                         <div class="form-group">
-                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-blue-question">Would you want a free evaluation?</span></span></label>
+                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-question">Would you want a free evaluation?</span></span></label>
                             <div class="evaluation-options">
                                 <div class="eval-option">
                                     <input type="radio" id="eval-yes" name="evaluation" value="yes" checked>
@@ -217,7 +217,7 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                         </div>
                     
                         <div class="form-group">
-                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-blue-question">What is your objective? (Clic to choise)</span></label>
+                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-question">What is your objective? (Clic to choise)</span></label>
                             <div class="goal-options">
                                 <div class="goal-option">
                                     <input type="checkbox" id="goal-nutrition" name="goals[]" value="nutrition">
@@ -243,11 +243,11 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                         </div>
                         
                         <div class="form-group">
-                            <label for="message" class="label-title">Tell me more about your real needs.</label>
+                            <label for="message" class="label-title"><span class="margin-bottom"><span class="hunderline-question">Tell me more about your real needs.</span></span></label>
                             <textarea id="message" name="message" class="form-control" rows="5" style="resize: none;" placeholder="Share about your specific goals and requirements..."></textarea>
                         </div>
                         <div class="form-group">
-                            <label class="label-title">How do you prefer to be contact</label>
+                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-question">How do you prefer to be contact?</span></span></label>
                             <div class="contact-option">
                                 <div class="day-option">
                                     <input type="checkbox" id="phone" name="contact-method[]" value="phone">
@@ -268,7 +268,7 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="label-title">What is the best time to call you?</label>
+                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-question">What is the best time to call you?</span></span></label>
                             <div class="time-options">
                                 <div class="time-option">
                                     <input type="checkbox" id="time-early-morning" name="call_time[]" value="early-morning">
@@ -298,7 +298,7 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                         </div>
                         
                         <div class="form-group">
-                            <label class="label-title">Preferred days for contact</label>
+                            <label class="label-title"><span class="margin-bottom"><span class="hunderline-question">Preferred days for contact</span></span></label>
                             <div class="day-options">
                                 <div class="day-option">
                                     <input type="checkbox" id="day-monday" name="call_day[]" value="monday">
@@ -332,13 +332,18 @@ Vous trouverez ici les forfaits les plus couramment utilisés. Cependant, chaque
                         </div>
                         
                         <div class="form-group">
-                            <label for="name">Your Name</label>
+                            <label for="name"><span class="margin-bottom"><span class="hunderline-question">Name</span></span></label>
                             <input type="text" id="name" name="name" class="form-control" required>
                         </div>
                         
                         <div class="form-group">
-                            <label for="email">And your Email</label>
+                            <label for="email"><span class="margin-bottom"><span class="hunderline-question">Email</span></span></label>
                             <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone"><span class="margin-bottom"><span class="hunderline-question">Phone number</span></span></label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+32 476.." pattern="[0-9+\s()-]+" required>
                         </div>
                         
                         <button type="submit" class="cta-button">SEND MESSAGE</button>
