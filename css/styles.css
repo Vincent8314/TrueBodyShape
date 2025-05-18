@@ -18,37 +18,37 @@ html {
 }
 @media (max-width:43.2rem) {
     html {
-        font-size:100%;
+        font-size:99%;
     }
 }
 @media (max-width:38.4rem) {
     html {
-        font-size:100%;
+        font-size:98%;
     }
 }
 @media (max-width:33.6rem) {
     html {
-        font-size:100%;
+        font-size:97%;
     }
 }
 @media (max-width:31.2rem) {
     html {
-        font-size:90%;
+        font-size:96%;
     }
 }
 @media (max-width:28.8rem) {
     html {
-        font-size:88%;
+        font-size:95%;
     }
 }
 @media (max-width:26.4rem) {
     html {
-        font-size:86%;
+        font-size:94%;
     }
 }
-@media (max-width:50%) {
+@media (max-width:24rem) {
     html {
-        font-size:84%;
+        font-size:92%;
     }
 }
 
