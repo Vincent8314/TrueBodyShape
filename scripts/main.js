@@ -155,20 +155,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Supprime l'effet "hover bloqué" après chaque clic
 document.querySelectorAll('label').forEach(label => {
   label.addEventListener('click', () => {
-    // Petite astuce : forcer le focus ailleurs pour perdre le hover
+    // Forcer le focus sur le body
     document.body.focus();
 
-    // Ou déclencher un reflow léger qui casse le :hover visuellement
-    label.style.pointerEvents = 'none';
+    // "Déplace" le curseur logiquement : forcer le hover à se désactiver
     setTimeout(() => {
-      label.style.pointerEvents = '';
-    }, 50); // 50 ms suffit pour casser le hover
+      label.classList.remove('hover-fix');
+      void label.offsetWidth; // Force repaint
+      label.classList.add('hover-fix');
+    }, 10);
   });
 });
 
-label.addEventListener('touchend', () => {
-  document.body.focus();
-});

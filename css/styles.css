@@ -799,18 +799,11 @@ textarea.form-control:focus {
     transform: scale(0.98);
 }
 
-@media (max-width: 37.5rem) {
-    label input{
-        transition: none !important;
-        transform: none !important;
-    }
-    label:active, input:active,
-    label.active, input.active {
-        transform: none !important;
-    }
-
-    }
-
+label.hover-fix:hover {
+  /* on évite d’avoir un :hover persistant */
+  transform: none !important;
+  background-color: inherit !important;
+}
 
 .eval-option input[type="radio"] {
     display: none;
