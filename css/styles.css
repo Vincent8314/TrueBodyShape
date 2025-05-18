@@ -14,7 +14,9 @@ html {
 @media (max-width:48rem) {
     html {
         font-size:100%;
-    }/* 
+    }
+}
+    /* 
 }
 @media (max-width:43.2rem) {
     html {
