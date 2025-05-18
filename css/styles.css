@@ -868,7 +868,7 @@ textarea.form-control:focus {
     display: none;
 }
 
-.contact-options {
+.contact-option {
     display: flex;
     flex-wrap: wrap;
     gap: 0.625rem;
