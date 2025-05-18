@@ -740,7 +740,11 @@ textarea.form-control:focus {
     gap: 0.5rem;
 }
 
-.eval-option label {
+.eval-option label, 
+.goal-option label,
+.contact-option label,
+.time-option label, 
+.day-option label {
     font-weight: 500;
     font-size: 1rem;
     padding: 0.5rem 1.875rem;
@@ -752,10 +756,36 @@ textarea.form-control:focus {
     transition: all 0.3s ease;
 }
 
-.eval-option input:checked + label {
+.eval-option input:checked + label,
+.goal-option input:checked + label,
+.contact-option input:checked + label,
+.time-option input:checked + label, 
+.day-option label:checked + label {
     background-color: var(--primary-blue);
     color: white;
     border: 0.0625rem solid var(--primary-blue);
+}
+
+.eval-option input:hover + label, 
+.goal-option input:hover + label,
+.contact-option input:hover + label,
+.time-option input:hover + label, 
+.day-option input:hover + label {
+    background-color: rgba(0, 51, 73, 1);/*#003349;*/
+    color: #fff;
+    border: 0.0625rem solid var(--primary-blue);
+    transform: scale(1.04);
+}
+
+.eval-option input:active + label,
+.goal-option input:active + label,
+.contact-option input:active + label,
+.eval-option input:active + label, 
+.goal-option input:active + label {
+    background-color: rgba(0, 51, 73, 0.9);/*#003349;*/
+    color: #fff;
+    border: 0.0625rem solid var(--primary-blue);
+    transform: scale(0.98);
 }
 
 .eval-option input[type="radio"] {
@@ -873,12 +903,6 @@ textarea.form-control:focus {
     flex-wrap: wrap;
     gap: 0.625rem;
     margin-bottom: 0.9375rem;
-}
-
-.contact-option {
-    display: flex;
-    align-items: center;
-    gap: 0.3125rem;
 }
 
 .contact-option label {
