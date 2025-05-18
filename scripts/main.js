@@ -154,3 +154,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+document.querySelectorAll('.LabelButton').forEach(label => {
+  label.addEventListener('click', () => {
+    label.classList.toggle('active');
+  });
+});
