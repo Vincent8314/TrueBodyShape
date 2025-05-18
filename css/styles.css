@@ -464,14 +464,23 @@ nav ul li a:hover {
    padding: 1.25rem 0 0 0;
 }
 
-.tarifs-banner,.contact-banner p {
-   padding: 1.25rem 15.625rem 2.5rem 15.625rem;
+
+
+.banner-content {
+    display: block;
+    margin: auto;
+    width: min(72.5rem, 94%);
+}
+
+.tarifs-banner p, .contact-banner p {
+   width: 100%; 
+   padding: 1.25rem 0 2.5rem 0;
    color: var(--light-gray);
    text-align: center; 
 }
 
 @media (max-width:48rem) {
-    .tarifs-banner,.contact-banner p {
+    .tarifs-banner p, .contact-banner p {
     padding: 1.25rem 1.25rem 2.5rem 1.25rem;
     color: var(--light-gray);
     text-align: center; 
@@ -788,6 +797,38 @@ textarea.form-control:focus {
     color: #fff;
     border: 0.0625rem solid var(--primary-blue);
     transform: scale(0.98);
+}
+
+@media (max-width:48rem) {
+.eval-option label, 
+.goal-option label,
+.contact-option label,
+.time-option label, 
+.day-option label {
+        animation: none;
+        transition: none;
+        transform: none;
+}
+
+.eval-option input:hover + label, 
+.goal-option input:hover + label,
+.contact-option input:hover + label,
+.time-option input:hover + label, 
+.day-option input:hover + label {
+        animation: none;
+        transition: none;
+        transform: none;
+}
+
+.eval-option input:active + label,
+.goal-option input:active + label,
+.contact-option input:active + label,
+.eval-option input:active + label, 
+.goal-option input:active + label {
+        animation: none;
+        transition: none;
+        transform: none;
+}
 }
 
 .eval-option input[type="radio"] {
