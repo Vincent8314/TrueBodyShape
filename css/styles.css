@@ -799,12 +799,6 @@ textarea.form-control:focus {
     transform: scale(0.98);
 }
 
-label.hover-fix:hover {
-  /* on évite d’avoir un :hover persistant */
-  transform: none !important;
-  background-color: inherit !important;
-}
-
 .eval-option input[type="radio"] {
     display: none;
 }
