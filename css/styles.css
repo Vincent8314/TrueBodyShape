@@ -798,7 +798,7 @@ textarea.form-control:focus {
     border: 0.0625rem solid var(--primary-blue);
     transform: scale(0.98);
 }
-
+/*
 @media (max-width:48rem) {
 .eval-option label, 
 .goal-option label,
@@ -829,7 +829,7 @@ textarea.form-control:focus {
         transition: none;
         transform: none;
 }
-}
+}*/
 
 .eval-option input[type="radio"] {
     display: none;
