@@ -798,38 +798,12 @@ textarea.form-control:focus {
     border: 0.0625rem solid var(--primary-blue);
     transform: scale(0.98);
 }
-/*
-@media (max-width:48rem) {
-.eval-option label, 
-.goal-option label,
-.contact-option label,
-.time-option label, 
-.day-option label {
-        animation: none;
-        transition: none;
-        transform: none;
-}
 
-.eval-option input:hover + label, 
-.goal-option input:hover + label,
-.contact-option input:hover + label,
-.time-option input:hover + label, 
-.day-option input:hover + label {
-        animation: none;
-        transition: none;
+@media (hover:none) {
+    label:hover {
         transform: none;
+    }
 }
-
-.eval-option input:active + label,
-.goal-option input:active + label,
-.contact-option input:active + label,
-.eval-option input:active + label, 
-.goal-option input:active + label {
-        animation: none;
-        transition: none;
-        transform: none;
-}
-}*/
 
 .eval-option input[type="radio"] {
     display: none;
