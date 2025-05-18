@@ -154,3 +154,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// This script enables toggling the active state on label buttons,
+// allowing users to click to select or deselect them,
+// and synchronizes the associated checkbox accordingly.
+
+document.querySelectorAll('.LabelButton').forEach(label => {
+  label.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default label behavior if needed
+    if (label.classList.contains('active')) {
+      label.classList.remove('active');
+      const input = document.getElementById(label.htmlFor);
+      if (input) input.checked = false;
+    } else {
+      label.classList.add('active');
+      const input = document.getElementById(label.htmlFor);
+      if (input) input.checked = true;
+    }
+  });
+});
