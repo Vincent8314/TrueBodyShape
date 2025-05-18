@@ -674,8 +674,9 @@ nav ul li a:hover {
 }
 
 .form-control {
-    width: min(650px,100%);
+    width: min(650px,94%);
     padding: 0.75rem;
+    margin: auto;
     color: #344154;
     background-color: #f5f5f7;
     border: 0.0625rem solid var(--primary-blue);
