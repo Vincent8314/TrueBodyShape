@@ -16,43 +16,41 @@ html {
         font-size:100%;
     }
 }
-    /* 
-}
-@media (max-width:43.2rem) {
+@media (max-width:25rem) {
     html {
         font-size:99%;
     }
 }
-@media (max-width:38.4rem) {
+@media (max-width:24rem) {
     html {
         font-size:98%;
     }
 }
-@media (max-width:33.6rem) {
+@media (max-width:23.5rem) {
     html {
         font-size:97%;
     }
 }
-@media (max-width:31.2rem) {
+@media (max-width:23rem) {
     html {
         font-size:96%;
     }
 }
-@media (max-width:28.8rem) {
+@media (max-width:22.5rem) {
     html {
         font-size:95%;
     }
 }
-@media (max-width:26.4rem) {
+@media (max-width:22rem) {
     html {
         font-size:94%;
     }
 }
-@media (max-width:24rem) {
+@media (max-width:20rem) {
     html {
         font-size:92%;
     }
-}*/
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -119,17 +117,32 @@ header {
 }
 
 .hunderline-divider {
-    max-width: 87%;
+    max-width: 85%;
     padding: 0.625rem;
-    border-bottom: 0.02rem solid #aaa;
+    border-bottom: 0.04rem solid #979797;
     margin: auto;
 }
 
-.divider-display {
-    display: none;
-} 
+@media (max-width: 48rem) {
+    .hunderline-divider-mobile {
+    max-width: 87%;
+    padding: 0.625rem;
+    border-bottom: 0.04rem solid #979797;
+    margin: auto;
+}
+}
 
-/*@media (max-width:1066px) {}*/
+
+@media (min-width: 48rem) {
+    .hunderline-divider-mobile {
+    max-width: 87%;
+    padding: 0.625rem;
+    border-bottom: 0.04rem solid #979797;
+    margin-left: 2rem ;
+}
+
+}
+
 
 
 .header-container {
@@ -399,6 +412,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-bottom: -0.5rem ;
 }
 
 .about-text {
@@ -663,7 +677,7 @@ nav ul li a:hover {
 
 @media (max-width: 48rem) { .container-contact {
         padding: 2.5%;
-        margin: 1.875rem 1.25rem;
+        margin: 1.5rem 1rem;
         /*overflow-x: hidden;*/
     }
 }
@@ -1193,7 +1207,7 @@ footer {
     .overlay {
     margin: 0 0 0 0;
     padding: 2.5rem 0.9375rem;
-    margin: 1.875rem 1.25rem;
+    margin: 1.5rem 1rem;
     border-radius: 0.9375rem;
     top: 0;
     left: 0;
