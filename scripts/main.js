@@ -155,17 +155,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-document.querySelectorAll('label').forEach(label => {
-  label.addEventListener('click', () => {
-    // Forcer le focus sur le body
-    document.body.focus();
-
-    // "Déplace" le curseur logiquement : forcer le hover à se désactiver
-    setTimeout(() => {
-      label.classList.remove('hover-fix');
-      void label.offsetWidth; // Force repaint
-      label.classList.add('hover-fix');
-    }, 10);
-  });
-});
 

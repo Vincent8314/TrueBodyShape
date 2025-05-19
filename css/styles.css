@@ -777,27 +777,31 @@ textarea.form-control:focus {
     border: 0.0625rem solid var(--primary-blue);
 }
 
-.eval-option input:hover + label, 
-.goal-option input:hover + label,
-.contact-option input:hover + label,
-.time-option input:hover + label, 
-.day-option input:hover + label {
+@media (min-wdth: 48rem) {
+    .eval-option input:hover + label, 
+    .goal-option input:hover + label,
+    .contact-option input:hover + label,
+    .time-option input:hover + label, 
+    .day-option input:hover + label {
     background-color: rgba(0, 51, 73, 1);/*#003349;*/
     color: #fff;
     border: 0.0625rem solid var(--primary-blue);
     transform: scale(1.04);
 }
 
-.eval-option input:active + label,
-.goal-option input:active + label,
-.contact-option input:active + label,
-.eval-option input:active + label, 
-.goal-option input:active + label {
+    .eval-option input:active + label,
+    .goal-option input:active + label,
+    .contact-option input:active + label,
+    .eval-option input:active + label, 
+    .goal-option input:active + label {
     background-color: rgba(0, 51, 73, 0.9);/*#003349;*/
     color: #fff;
     border: 0.0625rem solid var(--primary-blue);
     transform: scale(0.98);
 }
+
+}
+
 
 .eval-option input[type="radio"] {
     display: none;
