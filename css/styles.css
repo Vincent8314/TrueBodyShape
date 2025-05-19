@@ -412,6 +412,14 @@ nav ul li a:hover {
 .flex-services {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 0 0 3rem;
+}
+
+@media (max-width: 48rem) {
+    .flex-services {
+        padding: 0;
+        margin-top: -1.5rem;
+    }
 }
 
 .services-1 {
@@ -433,6 +441,13 @@ nav ul li a:hover {
 .services h3 {
     font-size: 1.6rem;
     margin-bottom: 1.25rem;
+    padding: 0 0 0 0.6rem;
+}
+
+@media (max-width: 48rem) {
+    .services h3 {
+        padding: 0 0 0 0.9rem;
+    }
 }
 
 .services ul {
